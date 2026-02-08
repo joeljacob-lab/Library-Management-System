@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="heading">
+        <h1>Library Management System</h1>
+    </div>
+
+    <fieldset class="fieldset">
+            <form class="form">
+                Title:<input type="text" id="title"><br><br>
+                Author:<input type="text" id="author"><br><br>
+                Pages:<input type="number" id="pages"><br><br>
+                Status:<input type="text" id="read"><br><br>
+                <button type="submit" id="submit">Submit</button>
+            </form> 
+    </fieldset>
+    <br><br>
+    <div class="tablediv">
+    <table style="border: 1px solid black;">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Title</td>
+                <td>Author</td>
+                <td>Pages</td>
+                <td>Status</td>
+                <td>Action</td>
+            </tr>  
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+     </div>   
+</body>
+</html>

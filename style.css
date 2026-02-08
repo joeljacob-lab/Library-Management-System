@@ -1,0 +1,96 @@
+.heading{
+    justify-items: center;
+}
+
+table, th,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+  width: 40%;
+  background-color: #96b2eb;
+  font-weight: bold;
+}
+
+.tablediv{
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  background-color: rgb(232, 188, 241);
+}
+
+.form{
+  font-size: 20px;
+  background-color: rgba(142, 235, 235, 0.507);
+}
+
+.fieldset{
+   background-color: rgba(142, 235, 235, 0.507);
+}
+
+#submit{
+  border-radius: 20px;
+  margin-top: 10px;
+  background-color: rgb(90, 203, 90);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#submit:hover{
+  background-color: rgb(9, 103, 9);
+  color: white;
+}
+
+#submit:active{
+  opacity: 0.6;
+}
+
+input {
+  padding: 4px 8px;
+  width: 200px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #4f46e5;   
+}
+
+.removeBtn{
+  background-color: rgb(181, 24, 24);
+  border: none;
+  border-radius: 20px;
+  padding: 8px 10px;
+  border: 1px solid black;
+  font: bold;
+}
+
+.toggleBtn{
+  background-color: rgb(14, 132, 53);
+  border: none;
+  border-radius: 20px;
+  padding: 8px 10px;
+  border: 1px solid black;
+  font: bold;
+  margin-bottom: 10px;
+}
+
+.removeBtn:hover{
+  background-color: rgb(118, 10, 10);
+  color: white;
+  cursor: pointer;
+}
+
+.toggleBtn:hover{
+  background-color: rgb(24, 90, 24);
+  color: white;
+  cursor: pointer;
+}
